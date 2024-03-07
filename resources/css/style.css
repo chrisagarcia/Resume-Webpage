@@ -7,8 +7,44 @@
     }
 }
 
+
+
+
 div {
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
+}
+
+body {
+    font-family: "Playfair Display", serif !important;
+}
+
+/* Colors */
+
+
+.main-container {
+    background-color: ivory !important;
+}
+
+
+/* Fonts */
+.resume-name {
+    font-family: "Playfair Display", serif !important;
+    font-weight: 500;
+    font-size: 48px;
+}
+
+.sub-head-text {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.block-text {
+    font-family: "Noto Sans JP", sans-serif !important;
+    font-weight: 300;
+}
+
+.functional-text {
+    font-family: "Noto Sans JP", sans-serif !important;
 }
 
 .profile-header-row {
@@ -17,10 +53,37 @@ div {
     text-align: left;
 }
 
+.text-style-institution-name {
+    font-weight: 600;
+}
+
+.text-style-institution-place {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.text-style-job-title {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.text-style-years {
+    font-family: "Noto Sans JP", sans-serif !important;
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+
+
+
 #profile-img {
     max-width: 200px;
     max-height: 200px;
     min-width: 100px;
     margin: auto;
     display: block;
+
+    border: 15px solid ivory;
+    padding: 0;
 }
